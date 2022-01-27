@@ -1,6 +1,6 @@
 {
   "name": "@jswang-tool/tools",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "方便的校验包",
   "main": "index.js",
   "scripts": {
