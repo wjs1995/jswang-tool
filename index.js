@@ -28,11 +28,17 @@ const isEmail = (email) => {
 const isIDNumber = (number) => {
     return /(^\d{15}$)|(^\d{18}$)|(^\d{17}(\d|X|x)$)/.test(number)
 }
+
+const isEqual = (a, b) => {
+    return a === b
+}
+
 module.exports = {
     isPhone,
     isTelephoneOfChina,
     isTelephoneOfWorld,
     isEmail,
     isDomain,
-    isIDNumber
+    isIDNumber,
+    isEqual
 }
