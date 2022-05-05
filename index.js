@@ -1,4 +1,3 @@
-
 // 校验手机号码
 const isPhone = (phoneNumber) => {
     return /^(13[0-9]|14[5|7]|15[0|1|2|3|4|5|6|7|8|9]|18[0|1|2|3|5|6|7|8|9])\d{8}$/.test(phoneNumber)
@@ -32,7 +31,10 @@ const isIDNumber = (number) => {
 const isEqual = (a, b) => {
     return a === b
 }
-
+// 是否是数字
+const isNumber = (number) => {
+    return /^[0-9]+.?[0-9]*$/.test(number)
+}
 module.exports = {
     isPhone,
     isTelephoneOfChina,
@@ -40,5 +42,6 @@ module.exports = {
     isEmail,
     isDomain,
     isIDNumber,
-    isEqual
+    isEqual,
+    isNumber
 }
