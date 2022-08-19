@@ -1,8 +1,8 @@
 {
   "name": "@jswang-tool/tools",
-  "version": "1.1.4",
+  "version": "1.1.9",
   "description": "方便的校验包",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
