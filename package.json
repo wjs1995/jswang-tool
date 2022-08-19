@@ -1,6 +1,6 @@
 {
   "name": "@jswang-tool/tools",
-  "version": "1.1.9",
+  "version": "1.1.16",
   "description": "方便的校验包",
   "main": "lib/index.js",
   "scripts": {
@@ -9,8 +9,10 @@
   "keywords": [
     "valid"
   ],
+  "files": ["lib/*.js"],
+  "private": false,
   "author": "jswang",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wjs1995/jswang-tool.git"
