@@ -35,6 +35,11 @@ const isEqual = (a, b) => {
 const isNumber = (number) => {
     return /^[0-9]+.?[0-9]*$/.test(number)
 }
+
+const replaceStr = (str,start = 3, end = 4) => {
+    const pat = eval(`/(\\d{${start}})\\d*(\\d{${end}})/`)
+    return str.replace(pat,"$1****$2")
+}
 module.exports = {
     isPhone,
     isTelephoneOfChina,
@@ -43,5 +48,6 @@ module.exports = {
     isDomain,
     isIDNumber,
     isEqual,
-    isNumber
+    isNumber,
+    replaceStr
 }
